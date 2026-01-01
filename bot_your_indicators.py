@@ -13,7 +13,7 @@ import asyncio
 # ==================== تنظیمات ====================
 from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
 
-TELEGRAM_TOKEN="8492497660:AAGQgmKTjrxi4c4IaRh6xg8PF9ZEYmbnZEc"
+TOKEN="8492497660:AAGQgmKTjrxi4c4IaRh6xg8PF9ZEYmbnZEc"
 CHAT_ID="138228682"
 
 # ==================== لیست ارزها ====================
@@ -775,6 +775,7 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
 
