@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: trading-bot
+    env: python
+    pythonVersion: "3.10.12"
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: python bot_your_indicators.py
