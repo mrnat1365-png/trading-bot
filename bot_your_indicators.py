@@ -13,8 +13,8 @@ import asyncio
 # ==================== تنظیمات ====================
 from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
 
-TOKEN = TELEGRAM_TOKEN
-CHAT_ID = TELEGRAM_CHAT_ID
+TELEGRAM_TOKEN=8492497660:AAGQgmKTjrxi4c4IaRh6xg8PF9ZEYmbnZEc
+TELEGRAM_CHAT_ID=138228682
 
 # ==================== لیست ارزها ====================
 CRYPTO_PAIRS = {
@@ -773,4 +773,5 @@ def main():
     app.run_polling()
 
 if __name__ == '__main__':
+
     main()
